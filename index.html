@@ -167,17 +167,14 @@
         const light = new THREE.PointLight( 0xffffff, 0.5 );
         light.position.set( 0, 2, 0 );
         scene.add( light );
-        scene.add( new THREE.PointLightHelper( light, 1 ) );
 
         const light2 = new THREE.PointLight( 0xffffff, 0.5 );
         light2.position.set( 0, 2, -5 );
         scene.add( light2 );
-        scene.add( new THREE.PointLightHelper( light2, 1 ) );
 
         const light3 = new THREE.PointLight( 0xffffff, 0.5 );
         light3.position.set( 0, 2, 5 );
         scene.add( light3 );
-        scene.add( new THREE.PointLightHelper( light3, 1 ) );
 
         const ambientLight = new THREE.AmbientLight(0x404040);
         scene.add(ambientLight);
